@@ -1,0 +1,16 @@
+config:
+  plugins:
+    expect: {}
+  environments:
+    k8s:
+      target: "http://192.168.99.112:30839"
+      tls:
+        rejectUnauthorized: false
+      phases:
+        - duration: 120
+          arrivalRate: 10
+      http:
+        pool: 8
+      ensure:
+        p95: 100
+        maxErrorRate: 0

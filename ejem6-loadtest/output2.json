@@ -1,0 +1,633 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 1200,
+      "vusers.created": 1200,
+      "http.requests": 1200,
+      "http.codes.200": 282,
+      "http.responses": 289,
+      "plugins.expect.ok": 282,
+      "plugins.expect.ok.statusCode": 282,
+      "vusers.failed": 918,
+      "vusers.completed": 282,
+      "errors.ECONNREFUSED": 897,
+      "http.codes.500": 2,
+      "plugins.expect.failed": 7,
+      "plugins.expect.failed.statusCode": 7,
+      "errors.Failed expectations for request http://192.168.49.2:30145/": 7,
+      "errors.ECONNRESET": 14,
+      "http.codes.503": 5
+    },
+    "rates": {
+      "http.request_rate": 10
+    },
+    "firstCounterAt": 1653903308958,
+    "firstHistogramAt": 1653903309222,
+    "lastCounterAt": 1653903428464,
+    "lastHistogramAt": 1653903427965,
+    "firstMetricAt": 1653903308958,
+    "lastMetricAt": 1653903428464,
+    "period": 1653903420000,
+    "summaries": {
+      "http.response_time": {
+        "min": 3,
+        "max": 650,
+        "count": 289,
+        "p50": 13.1,
+        "median": 13.1,
+        "p75": 32.1,
+        "p90": 242.3,
+        "p95": 539.2,
+        "p99": 632.8,
+        "p999": 645.6
+      },
+      "vusers.session_length": {
+        "min": 4.8,
+        "max": 654.9,
+        "count": 282,
+        "p50": 20.3,
+        "median": 20.3,
+        "p75": 47.9,
+        "p90": 273.2,
+        "p95": 539.2,
+        "p99": 645.6,
+        "p999": 645.6
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 13,
+        "vusers.created": 13,
+        "http.requests": 13,
+        "http.codes.200": 13,
+        "http.responses": 13,
+        "plugins.expect.ok": 13,
+        "plugins.expect.ok.statusCode": 13,
+        "vusers.failed": 0,
+        "vusers.completed": 13
+      },
+      "rates": {
+        "http.request_rate": 13
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1653903308958,
+      "firstHistogramAt": 1653903309222,
+      "lastCounterAt": 1653903309977,
+      "lastHistogramAt": 1653903309977,
+      "firstMetricAt": 1653903308958,
+      "lastMetricAt": 1653903309977,
+      "period": "1653903300000",
+      "summaries": {
+        "http.response_time": {
+          "min": 7,
+          "max": 242,
+          "count": 13,
+          "p50": 12.1,
+          "median": 12.1,
+          "p75": 16,
+          "p90": 237.5,
+          "p95": 242.3,
+          "p99": 242.3,
+          "p999": 242.3
+        },
+        "vusers.session_length": {
+          "min": 17.4,
+          "max": 272.9,
+          "count": 13,
+          "p50": 83.9,
+          "median": 83.9,
+          "p75": 89.1,
+          "p90": 267.8,
+          "p95": 267.8,
+          "p99": 267.8,
+          "p999": 267.8
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 100,
+        "vusers.created": 100,
+        "http.requests": 100,
+        "http.codes.200": 20,
+        "http.responses": 20,
+        "plugins.expect.ok": 20,
+        "plugins.expect.ok.statusCode": 20,
+        "vusers.failed": 80,
+        "vusers.completed": 20,
+        "errors.ECONNREFUSED": 80
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1653903310456,
+      "firstHistogramAt": 1653903310469,
+      "lastCounterAt": 1653903319958,
+      "lastHistogramAt": 1653903312000,
+      "firstMetricAt": 1653903310456,
+      "lastMetricAt": 1653903319958,
+      "period": "1653903310000",
+      "summaries": {
+        "http.response_time": {
+          "min": 5,
+          "max": 36,
+          "count": 20,
+          "p50": 22,
+          "median": 22,
+          "p75": 30.9,
+          "p90": 34.1,
+          "p95": 34.8,
+          "p99": 34.8,
+          "p999": 34.8
+        },
+        "vusers.session_length": {
+          "min": 14.9,
+          "max": 59,
+          "count": 20,
+          "p50": 40.9,
+          "median": 40.9,
+          "p75": 46.1,
+          "p90": 54.1,
+          "p95": 57.4,
+          "p99": 57.4,
+          "p999": 57.4
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 100,
+        "vusers.created": 100,
+        "http.requests": 100,
+        "errors.ECONNREFUSED": 44,
+        "vusers.failed": 51,
+        "http.codes.200": 43,
+        "http.responses": 50,
+        "plugins.expect.ok": 43,
+        "plugins.expect.ok.statusCode": 43,
+        "vusers.completed": 43,
+        "http.codes.500": 2,
+        "plugins.expect.failed": 7,
+        "plugins.expect.failed.statusCode": 7,
+        "errors.Failed expectations for request http://192.168.49.2:30145/": 7,
+        "http.codes.503": 5
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1653903320456,
+      "firstHistogramAt": 1653903324504,
+      "lastCounterAt": 1653903329957,
+      "lastHistogramAt": 1653903328572,
+      "firstMetricAt": 1653903320456,
+      "lastMetricAt": 1653903329957,
+      "period": "1653903320000",
+      "summaries": {
+        "http.response_time": {
+          "min": 4,
+          "max": 548,
+          "count": 50,
+          "p50": 16.9,
+          "median": 16.9,
+          "p75": 32.1,
+          "p90": 50.9,
+          "p95": 113.3,
+          "p99": 550.1,
+          "p999": 550.1
+        },
+        "vusers.session_length": {
+          "min": 7.6,
+          "max": 552.2,
+          "count": 43,
+          "p50": 27.9,
+          "median": 27.9,
+          "p75": 49.9,
+          "p90": 54.1,
+          "p95": 55.2,
+          "p99": 550.1,
+          "p999": 550.1
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 100,
+        "vusers.created": 100,
+        "http.requests": 100,
+        "errors.ECONNREFUSED": 106,
+        "vusers.failed": 106
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1653903330456,
+      "lastCounterAt": 1653903339961,
+      "firstMetricAt": 1653903330456,
+      "lastMetricAt": 1653903339961,
+      "period": "1653903330000",
+      "summaries": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 100,
+        "vusers.created": 100,
+        "http.requests": 100,
+        "errors.ECONNREFUSED": 60,
+        "vusers.failed": 67,
+        "http.codes.200": 33,
+        "http.responses": 33,
+        "plugins.expect.ok": 33,
+        "plugins.expect.ok.statusCode": 33,
+        "vusers.completed": 33,
+        "errors.ECONNRESET": 7
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1653903340456,
+      "firstHistogramAt": 1653903342604,
+      "lastCounterAt": 1653903349990,
+      "lastHistogramAt": 1653903344998,
+      "firstMetricAt": 1653903340456,
+      "lastMetricAt": 1653903349990,
+      "period": "1653903340000",
+      "summaries": {
+        "http.response_time": {
+          "min": 3,
+          "max": 650,
+          "count": 33,
+          "p50": 19.1,
+          "median": 19.1,
+          "p75": 147,
+          "p90": 147,
+          "p95": 645.6,
+          "p99": 645.6,
+          "p999": 645.6
+        },
+        "vusers.session_length": {
+          "min": 5.5,
+          "max": 654.9,
+          "count": 33,
+          "p50": 41.7,
+          "median": 41.7,
+          "p75": 149.9,
+          "p90": 149.9,
+          "p95": 645.6,
+          "p99": 645.6,
+          "p999": 645.6
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 100,
+        "vusers.created": 100,
+        "http.requests": 100,
+        "errors.ECONNREFUSED": 87,
+        "vusers.failed": 87,
+        "http.codes.200": 13,
+        "http.responses": 13,
+        "plugins.expect.ok": 13,
+        "plugins.expect.ok.statusCode": 13,
+        "vusers.completed": 13
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1653903350456,
+      "firstHistogramAt": 1653903359403,
+      "lastCounterAt": 1653903359962,
+      "lastHistogramAt": 1653903359962,
+      "firstMetricAt": 1653903350456,
+      "lastMetricAt": 1653903359962,
+      "period": "1653903350000",
+      "summaries": {
+        "http.response_time": {
+          "min": 4,
+          "max": 443,
+          "count": 13,
+          "p50": 12.1,
+          "median": 12.1,
+          "p75": 15,
+          "p90": 441.5,
+          "p95": 441.5,
+          "p99": 441.5,
+          "p999": 441.5
+        },
+        "vusers.session_length": {
+          "min": 5.1,
+          "max": 448,
+          "count": 13,
+          "p50": 15,
+          "median": 15,
+          "p75": 19.1,
+          "p90": 450.4,
+          "p95": 450.4,
+          "p99": 450.4,
+          "p999": 450.4
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 100,
+        "vusers.created": 100,
+        "http.requests": 100,
+        "http.codes.200": 20,
+        "http.responses": 20,
+        "plugins.expect.ok": 20,
+        "plugins.expect.ok.statusCode": 20,
+        "vusers.failed": 80,
+        "vusers.completed": 20,
+        "errors.ECONNREFUSED": 80
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1653903360456,
+      "firstHistogramAt": 1653903360464,
+      "lastCounterAt": 1653903369958,
+      "lastHistogramAt": 1653903361964,
+      "firstMetricAt": 1653903360456,
+      "lastMetricAt": 1653903369958,
+      "period": "1653903360000",
+      "summaries": {
+        "http.response_time": {
+          "min": 5,
+          "max": 14,
+          "count": 20,
+          "p50": 7.9,
+          "median": 7.9,
+          "p75": 8.9,
+          "p90": 10.9,
+          "p95": 13.9,
+          "p99": 13.9,
+          "p999": 13.9
+        },
+        "vusers.session_length": {
+          "min": 7.1,
+          "max": 16.5,
+          "count": 20,
+          "p50": 10.3,
+          "median": 10.3,
+          "p75": 12.1,
+          "p90": 13.1,
+          "p95": 15,
+          "p99": 15,
+          "p999": 15
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 100,
+        "vusers.created": 100,
+        "http.requests": 100,
+        "errors.ECONNREFUSED": 57,
+        "vusers.failed": 57,
+        "http.codes.200": 37,
+        "http.responses": 37,
+        "plugins.expect.ok": 37,
+        "plugins.expect.ok.statusCode": 37,
+        "vusers.completed": 37
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1653903370456,
+      "firstHistogramAt": 1653903375994,
+      "lastCounterAt": 1653903379958,
+      "lastHistogramAt": 1653903378490,
+      "firstMetricAt": 1653903370456,
+      "lastMetricAt": 1653903379958,
+      "period": "1653903370000",
+      "summaries": {
+        "http.response_time": {
+          "min": 4,
+          "max": 544,
+          "count": 37,
+          "p50": 13.1,
+          "median": 13.1,
+          "p75": 39.3,
+          "p90": 539.2,
+          "p95": 539.2,
+          "p99": 539.2,
+          "p999": 539.2
+        },
+        "vusers.session_length": {
+          "min": 6.6,
+          "max": 548.7,
+          "count": 37,
+          "p50": 14.4,
+          "median": 14.4,
+          "p75": 40.9,
+          "p90": 539.2,
+          "p95": 539.2,
+          "p99": 550.1,
+          "p999": 550.1
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 100,
+        "vusers.created": 100,
+        "http.requests": 100,
+        "errors.ECONNREFUSED": 106,
+        "vusers.failed": 106
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1653903380456,
+      "lastCounterAt": 1653903389957,
+      "firstMetricAt": 1653903380456,
+      "lastMetricAt": 1653903389957,
+      "period": "1653903380000",
+      "summaries": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 100,
+        "vusers.created": 100,
+        "http.requests": 100,
+        "errors.ECONNREFUSED": 44,
+        "vusers.failed": 51,
+        "http.codes.200": 43,
+        "http.responses": 43,
+        "plugins.expect.ok": 43,
+        "plugins.expect.ok.statusCode": 43,
+        "vusers.completed": 43,
+        "errors.ECONNRESET": 7
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1653903390456,
+      "firstHistogramAt": 1653903391247,
+      "lastCounterAt": 1653903399979,
+      "lastHistogramAt": 1653903394962,
+      "firstMetricAt": 1653903390456,
+      "lastMetricAt": 1653903399979,
+      "period": "1653903390000",
+      "summaries": {
+        "http.response_time": {
+          "min": 3,
+          "max": 290,
+          "count": 43,
+          "p50": 10.1,
+          "median": 10.1,
+          "p75": 19.9,
+          "p90": 32.1,
+          "p95": 40,
+          "p99": 290.1,
+          "p999": 290.1
+        },
+        "vusers.session_length": {
+          "min": 4.8,
+          "max": 291.3,
+          "count": 43,
+          "p50": 13.1,
+          "median": 13.1,
+          "p75": 25.8,
+          "p90": 37.7,
+          "p95": 46.1,
+          "p99": 290.1,
+          "p999": 290.1
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 100,
+        "vusers.created": 100,
+        "http.requests": 100,
+        "errors.ECONNREFUSED": 96,
+        "vusers.failed": 96
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1653903400456,
+      "lastCounterAt": 1653903409958,
+      "firstMetricAt": 1653903400456,
+      "lastMetricAt": 1653903409958,
+      "period": "1653903400000",
+      "summaries": {}
+    },
+    {
+      "counters": {
+        "http.codes.200": 27,
+        "http.responses": 27,
+        "plugins.expect.ok": 27,
+        "plugins.expect.ok.statusCode": 27,
+        "vusers.failed": 83,
+        "vusers.completed": 27,
+        "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 100,
+        "vusers.created": 100,
+        "http.requests": 100,
+        "errors.ECONNREFUSED": 83
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1653903410091,
+      "firstHistogramAt": 1653903410091,
+      "lastCounterAt": 1653903419960,
+      "lastHistogramAt": 1653903411474,
+      "firstMetricAt": 1653903410091,
+      "lastMetricAt": 1653903419960,
+      "period": "1653903410000",
+      "summaries": {
+        "http.response_time": {
+          "min": 8,
+          "max": 633,
+          "count": 27,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 135.7,
+          "p90": 632.8,
+          "p95": 632.8,
+          "p99": 632.8,
+          "p999": 632.8
+        },
+        "vusers.session_length": {
+          "min": 11.3,
+          "max": 639.2,
+          "count": 27,
+          "p50": 21.5,
+          "median": 21.5,
+          "p75": 138.4,
+          "p90": 632.8,
+          "p95": 632.8,
+          "p99": 632.8,
+          "p999": 632.8
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Escenario 1: Un único pod en el deployment. No caos testing": 87,
+        "vusers.created": 87,
+        "http.requests": 87,
+        "errors.ECONNREFUSED": 54,
+        "vusers.failed": 54,
+        "http.codes.200": 33,
+        "http.responses": 33,
+        "plugins.expect.ok": 33,
+        "plugins.expect.ok.statusCode": 33,
+        "vusers.completed": 33
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1653903420456,
+      "firstHistogramAt": 1653903425285,
+      "lastCounterAt": 1653903428464,
+      "lastHistogramAt": 1653903427965,
+      "firstMetricAt": 1653903420456,
+      "lastMetricAt": 1653903428464,
+      "period": "1653903420000",
+      "summaries": {
+        "http.response_time": {
+          "min": 4,
+          "max": 326,
+          "count": 33,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 30.3,
+          "p90": 36.2,
+          "p95": 320.6,
+          "p99": 327.1,
+          "p999": 327.1
+        },
+        "vusers.session_length": {
+          "min": 5.2,
+          "max": 331.7,
+          "count": 33,
+          "p50": 19.9,
+          "median": 19.9,
+          "p75": 37.7,
+          "p90": 48.9,
+          "p95": 327.1,
+          "p99": 327.1,
+          "p999": 327.1
+        }
+      }
+    }
+  ]
+}

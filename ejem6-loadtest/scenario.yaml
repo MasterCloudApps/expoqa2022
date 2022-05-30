@@ -1,0 +1,7 @@
+scenarios:
+  - name: "Load test"
+    flow:
+      - get:
+          url: "/"
+          expect:
+            - statusCode: 200
